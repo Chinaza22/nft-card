@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 6px solid rgb(31, 21, 21);
+    border-radius: 20px;
+    
+}
+
+/* section */
+.section{
+    width: 100%;
+    min-height: 800px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.content{
+    width: 23%;
+    height: 600px;
+    margin:  0 auto; /*pushing a content to the center */
+    padding-top: 60px;
+}
+
+.small-box{
+    width: 100%;
+    min-height:540px;
+    text-align: center;
+    color: papayawhip;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px;
+
+
+
+}
+
+.img1{
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: 250px;
+    width: 280px;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    text-align:left;
+    font-size: 18px;
+    padding-left: 10px;
+
+}
+
+h3{
+    color: whitesmoke;
+     font-weight: 600; 
+     font-family: outfit; 
+     text-align: justify; 
+     padding-left: 15px;
+}
+
+.sbox{
+    width: 100%;
+    min-height: 50px;
+    padding-top: 0;
+   
+}
+
+.one{
+    float: left;
+    width: 48%;
+    font-weight: 400;
+    color:  hsl(178, 100%, 50%) ;
+    padding: 6px;
+}
+
+.two{
+    float: left;
+    width: 42%;
+    color:hsl(215, 51%, 70%);
+    padding-left: 16px;
+    padding-top: 6px;
+
+}
+
+hr{
+    border: 1px solid hsl(216, 25%, 33%);
+    width: 100%;
+    
+
+}
+
+.img2{
+    width: 30px;
+}
+
+span{
+    color:hsl(215, 51%, 70%);
+    margin-left: 8px;
+
+    
+}
+
+.txt{
+    color: white;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+
+/*@media screen and (min-width:375px) {
+
+    .element{
+          background-color: thistle;
+    }
+
+}
+
+*/
+@media only screen and (max-width:1440px) {
+    .element{
+        width: calc(50%-170px)
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .element{
+        width: calc(100% - 160px);
+    }
+}
